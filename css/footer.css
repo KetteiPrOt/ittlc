@@ -1,0 +1,42 @@
+footer {
+    padding: 50px;
+    text-align: center;
+}
+
+footer .logo {
+    display: block;
+    width: 7%;
+    border-radius: 50%;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+footer .centrado {
+    text-align: center;
+}
+
+footer .redes-sociales {
+    width: 20%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .redes-sociales a {
+    width: 17%;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+footer .redes-sociales a img {
+    width: 100%;
+}
+
+
+footer .redes-sociales .facebook { background-color: #3b5998; }
+
+footer .redes-sociales .youtube { background-color: #cd210f; }
+
+footer .redes-sociales .twitter { background-color: #1da1f2; }
+
+footer .redes-sociales .instagram { background-color: #3f729b; }

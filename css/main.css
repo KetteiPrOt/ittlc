@@ -1,0 +1,41 @@
+main {
+    padding: 50px;
+}
+
+main .titulo-principal {
+    color: #444;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.titulo-secundario {
+    color: #666666;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.parrafo {
+    color: #888;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+main .imagen {
+    height: 315px;
+    margin-right: 25px;
+}
+
+main .contacto {
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main .contenedor-horarios {
+    display: flex;
+}
+
+main .contenedor-horarios .lunes {
+    margin-right: 20px;
+}

@@ -1,0 +1,72 @@
+/* Layout */
+aside {
+    background-color: #D8D8D8;
+    padding-top: 50px;
+    position: sticky;
+    top: 0;
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Elementos */
+
+aside .logo {
+    width: 55%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    transition: all 1s ease;
+}
+
+aside .logo:hover {
+    transform: rotate(180deg);
+}
+
+aside nav {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside nav a {
+    color: var(--primario);
+    text-decoration: none;
+    margin-bottom: 50px;
+    transition: all 0.3s ease;
+}
+
+aside nav .active {
+    color: #cd210f;
+}
+
+aside nav a:hover {
+    color: #cd210f;
+}
+
+aside .redes-sociales {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside .redes-sociales a {
+    width: 17%;
+    padding: 7px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+aside .redes-sociales a img {
+    width: 100%;
+}
+
+
+aside .redes-sociales .facebook:hover { background-color: #3b5998; }
+
+aside .redes-sociales .youtube:hover { background-color: #cd210f; }
+
+aside .redes-sociales .twitter:hover { background-color: #1da1f2; }
+
+aside .redes-sociales .instagram:hover { background-color: #3f729b; }

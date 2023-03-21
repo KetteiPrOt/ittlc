@@ -1,0 +1,39 @@
+:root {
+    --primario: #666666;
+}
+
+* {
+    font-family: Inter;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.main-layout {
+    /* CSS Grid */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    grid-template-areas: "aside header"
+                         "aside main"
+                         "aside footer";
+}
+
+aside {
+    grid-area: aside;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
