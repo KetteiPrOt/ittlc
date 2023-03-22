@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .main-layout {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 90px 1fr 5fr 0.8fr;
+        grid-template-areas: "aside"
+                             "header"
+                             "main"
+                             "footer";
+    }
+
+    main {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

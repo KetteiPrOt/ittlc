@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px) {
+    aside .navegacion a {
+        font-size: 13px;
+    }
+
+    aside .redes-sociales {
+        width: 70%;
+    }
+
+    aside .redes-sociales a {
+        width: 23%;
+    }
+}

@@ -26,6 +26,9 @@ footer .redes-sociales a {
     width: 17%;
     padding: 7px;
     border-radius: 50%;
+    /* Flebox */
+    display: flex;
+    align-items: center;
 }
 
 footer .redes-sociales a img {

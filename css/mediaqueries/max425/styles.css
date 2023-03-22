@@ -1,0 +1,54 @@
+@media screen and (max-width: 630px) {
+    .main-layout {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px 0.8fr 5fr 0.8fr;
+        grid-template-areas: "aside"
+                             "header"
+                             "main"
+                             "footer";
+    }
+
+    main .imagen {
+        width: 350px;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr;
+        grid-template-areas: "uno  dos"
+                             "tres cuatro";
+    }
+
+    header .quienes-somos {
+        grid-area: uno;
+    }
+
+    header .clases {
+        grid-area: dos;
+    }
+
+    header .contacto {
+        grid-area: tres;
+    }
+
+    header .novedades {
+        grid-area: cuatro;
+    }
+
+    header .quienes-somos,
+    header .clases,
+    header .contacto,
+    header .novedades {
+        width: 100%;
+    }
+
+    footer .redes-sociales {
+        width: 50%;
+    }
+
+    footer .logo {
+        width: 25%;
+    }
+}

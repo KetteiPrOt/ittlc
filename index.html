@@ -16,7 +16,7 @@
 
         <aside id="menu" class="menu-navegacion">
             <img src="media/inicio/logo.png" alt="Logotipo ITTLC" class="logo">
-            <nav>
+            <nav class="navegacion">
                 <a id="inicio">Inicio</a>
                 <a id="quienes">Quienes Somos</a>
                 <a id="clases">Clases</a>
@@ -42,19 +42,19 @@
         <header>
             <div class="quienes-somos">
                 <div class="header-image"></div>
-                <a href="#">Quienes somos</a>
+                <a>Quienes somos</a>
             </div>
             <div class="clases">
                 <div class="header-image"></div>
-                <a href="#">Clases</a>
+                <a>Clases</a>
             </div>
             <div class="contacto">
                 <div class="header-image"></div>
-                <a href="#">Contacto</a>
+                <a>Contacto</a>
             </div>
             <div class="novedades">
                 <div class="header-image"></div>
-                <a href="#">Novedades</a>
+                <a>Novedades</a>
             </div>
         </header>
     
@@ -74,7 +74,7 @@
 
             <img src="media/inicio/img1.jpg" alt="Postura de combate" class="imagen">
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/hRx887A1SKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="videoUno" class="centrar-video" width="560" height="315" src="https://www.youtube.com/embed/hRx887A1SKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
             <!-- Clases -->
@@ -84,7 +84,7 @@
                 Clase abierta de Taichi: sabados de 7:30 am hasta 8:30 am. Ubicacion: Playa el Murcielago de Manta.
             </p>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ud9MtT5YMbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="videoDos" width="560" height="315" src="https://www.youtube.com/embed/Ud9MtT5YMbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             <p class="parrafo">
                 Clase Online de Taichi: martes y diaX de 3:00 pm hasta 3:40 pm. Via zoom.
@@ -106,9 +106,9 @@
             </ul>
 
             <div class="contenedor-horarios">
-                <iframe class="lunes" width="560" height="315" src="https://www.youtube.com/embed/3TrWzFbg2WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="videoTres" class="lunes" width="560" height="315" src="https://www.youtube.com/embed/3TrWzFbg2WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/oTUIALxOynU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="videoCuatro" class="martes" width="560" height="315" src="https://www.youtube.com/embed/oTUIALxOynU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <!-- Novedades -->
@@ -151,8 +151,8 @@
         </footer>
     </div>
     
-    <script src="js/estilo/menu.js"></script>
     <script src="js/estilo/headerImg.js" defer></script>
     <script src="js/autoscroll.js"></script>
+    <script src="js/estilo/ajustarVideos.js"></script>
 </body>
 </html>

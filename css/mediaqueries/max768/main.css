@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    main .contenedor-horarios {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .imagen {
+        height: auto;
+        width: 400px;
+    }
+
+    main .contenedor-horarios .lunes {
+        margin: 0;
+    }
+
+    main .contenedor-horarios .martes {
+        margin: 20px;
+    }
+
+    main #videoDos {
+        display: block;
+        margin: 0 auto;
+    }
+}
