@@ -4,7 +4,37 @@ function ajustarScroll () {
 
    let op1, op2, op3, op4, op5;
 
-    if (ancho <= 435) {
+   if (ancho <= 375) {
+        op1 = {
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        }
+        
+        op2 = {
+            top: 350,
+            left: 0,
+            behavior: 'smooth'
+        }
+        
+        op3 = {
+            top: 1400,
+            left: 0,
+            behavior: 'smooth'
+        }
+        
+        op4 = {
+            top: 2350,
+            left: 0,
+            behavior: 'smooth'
+        }
+        
+        op5 = {
+            top: 10000,
+            left: 0,
+            behavior: 'smooth'
+        }
+   } else if (ancho <= 435) {
         op1 = {
             top: 0,
             left: 0,

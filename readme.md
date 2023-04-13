@@ -11,3 +11,9 @@ al instituto Tai Chi - Tang Lang Chuen hospedado en Git Pages.
 
 El sitio debe describir las actividades y objetivos de la organizacion, ademas de
 facilitar una forma para hacer contacto.
+
+## Cuenta de Google
+Cuenta que esta vinculada al canal de Youtube:
+
+- Correo: er459712@gmail.com
+- Clave: gjkCde45*
