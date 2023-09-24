@@ -5,15 +5,6 @@ https://taichiestilochen.com/
 
 ## Objetivo del Proyecto
 
-Poner en practica mis habilidades de HTML CSS y JS para crear un sitio web gratuito
-al instituto Tai Chi - Tang Lang Chuen hospedado en Git Pages.
+In this project I have created an institutional page for the Tai Chi Tang Lang Chuen Institute.
 
-
-El sitio debe describir las actividades y objetivos de la organizacion, ademas de
-facilitar una forma para hacer contacto.
-
-## Cuenta de Google
-Cuenta que esta vinculada al canal de Youtube:
-
-- Correo: er459712@gmail.com
-- Clave: gjkCde45*
+This website describes the activities and general objectives of the institute, so here you can contact them too.
