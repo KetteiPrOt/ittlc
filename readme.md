@@ -1,4 +1,4 @@
-## Objetivo del Proyecto
+## Project Objetive
 
 In this project I have created an institutional page for the Tai Chi Tang Lang Chuen Institute.
 
