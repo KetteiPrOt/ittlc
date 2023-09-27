@@ -1,8 +1,10 @@
 let videos = [
-    videoUno = document.getElementById('videoUno'),
-    videoDos = document.getElementById('videoDos'),
-    videoTres = document.getElementById('videoTres'),
-    videoCuatro = document.getElementById('videoCuatro')
+    document.getElementById('videoUno'),
+    document.getElementById('videoDos'),
+    document.getElementById('videoTres'),
+    document.getElementById('videoCuatro'),
+    document.getElementById('videoCinco'),
+    document.getElementById('videoSeis')
 ];
 
 function redimencionar() {
