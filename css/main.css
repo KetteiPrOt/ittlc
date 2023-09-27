@@ -21,6 +21,10 @@ main .titulo-principal {
     text-align: justify;
 }
 
+main .mapa {
+    width: 100%;
+}
+
 main .imagen {
     height: 315px;
     margin-right: 25px;

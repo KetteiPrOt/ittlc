@@ -37,6 +37,7 @@ aside .navegacion a {
     text-decoration: none;
     margin-bottom: 50px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 aside nav a:hover {

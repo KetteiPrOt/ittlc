@@ -30,6 +30,10 @@ header .novedades .header-image {
     z-index: 3;
 }
 
+header div a {
+    cursor: default;
+}
+
 header .quienes-somos .escalar,
 header .clases .escalar,
 header .contacto .escalar,
